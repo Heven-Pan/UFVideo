@@ -83,7 +83,7 @@ Parameter settings:
 * `SAVE_PATH` : path to save evaluation results
 
 ## 🏋️ Training
-Please check the scripts under scripts/train and set the training hyperparameters. Our experiments were conducted on a total of 32 NVIDIA A100/H100 (80G) GPUs, stage 1 used all 32 GPUs and stage 2 used 24 GPUs (due to multi-node communication overhead). You may modify nproc_per_node, per_device_train_batch_size, and gradient_accumulation_steps to keep the same global batch size (512 for stage 1, 384 for stage 2) if you have different device configurations.
+Please check the scripts under scripts/train and set the training hyperparameters. Our experiments were conducted on a total of 32 NVIDIA A100 (80G) GPUs, stage 1 used all 32 GPUs and stage 2 used 24 GPUs (due to multi-node communication overhead). You may modify nproc_per_node, per_device_train_batch_size, and gradient_accumulation_steps to keep the same global batch size (512 for stage 1, 384 for stage 2) if you have different device configurations.
 ```bash
 sh scripts/train/stage1.sh
 sh scripts/train/stage2.sh
