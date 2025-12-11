@@ -25,7 +25,7 @@ This repository provides the complete code and datasets for UFVideo, a Video LLM
 <p align="center"><img width="900" src="figs/overall_tasks.png"></p>
 
 ## 📰 News
-* **[2025.12.8]**  🔥We release [UFVideo](), including [UFVideo-7B](https://huggingface.co/DAMO-NLP-SG/VideoRefer-7B) model, the code of UFVideo and the [UFVideo-Bench](https://huggingface.co/datasets/DAMO-NLP-SG/VideoRefer-Bench).
+* **[2025.12.12]**  🔥We release [UFVideo](), including [UFVideo-7B](https://huggingface.co/DAMO-NLP-SG/VideoRefer-7B) model, the code of UFVideo and the [UFVideo-Bench](https://huggingface.co/datasets/DAMO-NLP-SG/VideoRefer-Bench).
 
 ## 🚀 Performance
 <strong>UFVideo</strong> is the first video LLM with global-level, pixel-level and temporal-level video understanding capacity and demonstartes high performance across global and various fine-grained video understanding benchmarks.
