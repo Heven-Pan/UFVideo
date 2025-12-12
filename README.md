@@ -13,9 +13,9 @@
 -----
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2509.18094" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.18094-red"></a>
+  <a href="https://arxiv.org/abs/2509.18094" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.18094-blue"></a>
   <a href="https://huggingface.co/Hevven/UFVideo-7B" target="_blank"><img src='https://img.shields.io/badge/Model-Huggingface-red'></a>
-  <a href="https://huggingface.co/datasets/Hevven/UFVideo-Bench" target="_blank"><img src='https://img.shields.io/badge/Benchmark-Huggingface-purple'></a> 
+  <a href="https://huggingface.co/datasets/Hevven/UFVideo-Bench" target="_blank"><img src='https://img.shields.io/badge/Benchmark-Huggingface-pink'></a> 
 </p>
 
 <p align="justify">
@@ -25,7 +25,7 @@ This repository provides the complete code and datasets for UFVideo, a Video LLM
 <p align="center"><img width="900" src="figs/overall_tasks.png"></p>
 
 ## 📰 News
-* **[2025.12.12]**  🔥We release [UFVideo](), including [UFVideo-7B](https://huggingface.co/DAMO-NLP-SG/VideoRefer-7B) model, the code of UFVideo and the [UFVideo-Bench](https://huggingface.co/datasets/DAMO-NLP-SG/VideoRefer-Bench).
+* **[2025.12.12]**  🔥We release [UFVideo](ufvideo/), including [UFVideo-7B](https://huggingface.co/Hevven/UFVideo-7B) model, the code of UFVideo and the [UFVideo-Bench](https://huggingface.co/datasets/Hevven/UFVideo-Bench).
 
 ## 🚀 Performance
 <strong>UFVideo</strong> is the first video LLM with global-level, pixel-level and temporal-level video understanding capacity and demonstartes high performance across global and various fine-grained video understanding benchmarks.
@@ -42,7 +42,7 @@ This repository provides the complete code and datasets for UFVideo, a Video LLM
 <p align="center"><img width="900" src="figs/Table4.png"></p>
 
 ## 📊 UFVideo-Bench
-For evaluation, the datasets and json file of the benchmark can be accessed on [UFVideo-Bench](). The usage can refer to the [PixRQA](/ufvideo/eval/inference_PixRQA.py), [PixHQA](/ufvideo/eval/inference_PixHQA.py) and [PixTRQA](/ufvideo/eval/inference_PixTRQA.py)
+For evaluation, the datasets and json file of the benchmark can be accessed on [UFVideo-Bench](https://huggingface.co/datasets/Hevven/UFVideo-Bench). The usage can refer to the [PixRQA](/ufvideo/eval/inference_PixRQA.py), [PixHQA](/ufvideo/eval/inference_PixHQA.py) and [PixTRQA](/ufvideo/eval/inference_PixTRQA.py)
 
 ## 📦 UFVideo Training Dataset
 We will open it soon! 
