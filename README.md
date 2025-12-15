@@ -13,7 +13,7 @@
 -----
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2512.11336" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.18094-blue"></a>
+  <a href="https://arxiv.org/abs/2512.11336" target="_blank"><img src="https://img.shields.io/badge/arXiv-2512.11336-blue"></a>
   <a href="https://huggingface.co/Hevven/UFVideo-7B" target="_blank"><img src='https://img.shields.io/badge/Model-Huggingface-red'></a>
   <a href="https://huggingface.co/datasets/Hevven/UFVideo-Bench" target="_blank"><img src='https://img.shields.io/badge/Benchmark-Huggingface-pink'></a> 
 </p>
