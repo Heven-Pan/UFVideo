@@ -13,7 +13,7 @@
 -----
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2509.18094" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.18094-blue"></a>
+  <a href="https://arxiv.org/abs/2512.11336" target="_blank"><img src="https://img.shields.io/badge/arXiv-2509.18094-blue"></a>
   <a href="https://huggingface.co/Hevven/UFVideo-7B" target="_blank"><img src='https://img.shields.io/badge/Model-Huggingface-red'></a>
   <a href="https://huggingface.co/datasets/Hevven/UFVideo-Bench" target="_blank"><img src='https://img.shields.io/badge/Benchmark-Huggingface-pink'></a> 
 </p>
@@ -90,6 +90,18 @@ sh scripts/train/stage2.sh
 ```
 
 ## 📑 Citation
+Please kindly cite our paper if you find this project helpful.
+```bibtex
+@misc{pan2025ufvideounifiedfinegrainedvideo,
+      title={UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models}, 
+      author={Hewen Pan and Cong Wei and Dashuang Liang and Zepeng Huang and Pengfei Gao and Ziqi Zhou and Lulu Xue and Pengfei Yan and Xiaoming Wei and Minghui Li and Shengshan Hu},
+      year={2025},
+      eprint={2512.11336},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.11336}, 
+}
+```
 
 ## 🙏 Acknowledgement
 Thanks for remarkable and impressive works [VideoRefer](https://github.com/alibaba-damo-academy/PixelRefer), [LLaVA-ST](https://github.com/appletea233/LLaVA-ST), [UniPixel](https://github.com/PolyU-ChenLab/UniPixel) and [RGA3](https://github.com/qirui-chen/RGA3-release). Our code is based on them.
