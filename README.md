@@ -92,14 +92,11 @@ sh scripts/train/stage2.sh
 ## 📑 Citation
 Please kindly cite our paper if you find this project helpful.
 ```bibtex
-@misc{pan2025ufvideounifiedfinegrainedvideo,
-      title={UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models}, 
-      author={Hewen Pan and Cong Wei and Dashuang Liang and Zepeng Huang and Pengfei Gao and Ziqi Zhou and Lulu Xue and Pengfei Yan and Xiaoming Wei and Minghui Li and Shengshan Hu},
-      year={2025},
-      eprint={2512.11336},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.11336}, 
+@article{pan2025ufvideo,
+  title={UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models},
+  author={Pan, Hewen and Wei, Cong and Liang, Dashuang and Huang, Zepeng and Gao, Pengfei and Zhou, Ziqi and Xue, Lulu and Yan, Pengfei and Wei, Xiaoming and Li, Minghui and others},
+  journal={arXiv preprint arXiv:2512.11336},
+  year={2025}
 }
 ```
 
