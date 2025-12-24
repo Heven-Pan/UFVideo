@@ -45,7 +45,19 @@ This repository provides the complete code and datasets for UFVideo, a Video LLM
 For evaluation, the datasets and json file of the benchmark can be accessed on [UFVideo-Bench](https://huggingface.co/datasets/Hevven/UFVideo-Bench). The usage can refer to the [PixRQA](/ufvideo/eval/inference_PixRQA.py), [PixHQA](/ufvideo/eval/inference_PixHQA.py) and [PixTRQA](/ufvideo/eval/inference_PixTRQA.py)
 
 ## 📦 UFVideo Training Dataset
-We will open it soon! 
+Given that our training JSON files are still under compilation, we first collated and released details of the training data sources and usage methods. Below is <strong>a summary of all adopted training data sources</strong> and corresponding processing operations. We hope this dataset can provide valuable insights and support for future researchers, and <strong>we will release the finalized training JSON files as soon as possible! </strong>
+
+| Datasets                       |Type| Download Links                                             | Notes |
+|--------------------------------|----|------------------------------------------------------------| ----- |
+|ST-Align-Dataset|General QA|[ST-Align-Dataset](https://huggingface.co/datasets/appletea2333/ST-Align-Dataset)|We adopt the data of the Conversation, VideoQA, Classification, and Video Captioning modules in Stage 3 of LLaVA-ST|
+|LLaVA-Video-178K|General QA|[LLaVA-Video-178K](https://huggingface.co/datasets/lmms-lab/LLaVA-Video-178K)|To enhance the Multi-choice and Open-ended QA capabilities, we randomly selected 100,000 entries from the 960,792 open-ended QA items in the LLaVA-Video-178K dataset, and utilized the full set of 196,198 multiple-choice QA items.|
+|VideoRefer-700K|Video Object Referring|[VideoRefer-700K](https://huggingface.co/datasets/DAMO-NLP-SG/VideoRefer-700K)|For the single-frame mode data, we used the full set of 125K object-level detailed descriptions and randomly selected 50K object-level short descriptions. For the multi-frame mode data, we adopted the complete 75K object-level QA entries and converted 125K object-level detailed descriptions into QA tasks. This setup for the VideoRefer-700K dataset follows the Stage 3 configuration specified in Appendix B of the VideoRefer paper: employ a balanced approach using half in single-frame mode and half in multi-frame mode.|
+|MeVIS|Video Segmentation|[MeVIS](https://github.com/henghuiding/MeViS)|---|
+|Ref-YouTube|Video Segmentation|[Ref_YouTube](https://youtube-vos.org/dataset/rvos/)|---|
+|DAVIS17|Video Segmentation|[DAVIS17](https://davischallenge.org/davis2017/code.html)|---|
+|ReVOS|Video Segmentation|[ReVOS](https://github.com/cilinyan/ReVOS-api)|---|
+|ST-Align-Dataset|Temporal Video Grounding|[ST-Align-Dataset](https://huggingface.co/datasets/appletea2333/ST-Align-Dataset)|We adopted the TVG, DVC and TR data from Stage 2 and Stage 3 of the ST-Align-Dataset, then converted the data into relative values ranging from 0 to 99 and populated them into the conversation module.|
+|internvid-tg|Temporal Video Grounding|[internvid-tg](https://huggingface.co/datasets/yingsen/internvid-tg)|The conversion method is the same as ST-Align-Dataset.|
 
 ## 📥 Installation
 ### Environment
