@@ -1,11 +1,13 @@
 #!/bin/bash
 # 激活 conda 环境
-source miniconda3/bin/activate VideoRefer
+source miniconda3/bin/activate UFVideo
 
 # 检查 ffprobe 版本以确保路径正确
 ffprobe -version
 
 # # Environment Variables
+# Given that the configuration for multi-node training deployment involves the company's internal usage specifications
+# only the configuration for single-node training will be presented below.
 ARG_WORLD_SIZE=${1:-1}
 ARG_NPROC_PER_NODE=${2:-8}
 ARG_MASTER_ADDR="127.0.0.1"
