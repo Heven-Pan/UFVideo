@@ -5,7 +5,7 @@
 <h2 align="center">UFVideo: Towards Unified Fine-Grained Video Cooperative Understanding with Large Language Models</h2>
 
 <p align="center">
-  <a href="https://scholar.google.com.hk/citations?user=f-tS_FwAAAAJ&hl=zh-CN">Hewen Pan</a><sup>1,2</sup>, Cong Wei<sup>2</sup>, Dashuang Liang<sup>2*</sup>, Zepeng Huang<sup>2</sup>, Pengfei Gao<sup>2</sup> <br/>  <a href="https://scholar.google.com/citations?user=4oXBp9UAAAAJ">Ziqi Zhou</a><sup>2</sup>, Lulu Xue<sup>1</sup>, Pengfei Yan<sup>1</sup>, <a href="https://scholar.google.com.hk/citations?user=JXV5yrZxj5MC&hl=zh-CN&oi=ao">Xiaoming Wei</a><sup>1</sup>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=j_y67gEAAAAJ">Minghui Li</a><sup>1</sup>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=lkAFwJgAAAAJ">Shengshan Hu</a><sup>1*</sup>
+  <a href="https://scholar.google.com.hk/citations?user=f-tS_FwAAAAJ&hl=zh-CN">Hewen Pan</a><sup>1,2</sup>, Cong Wei<sup>2</sup>, Dashuang Liang<sup>2*</sup>, Zepeng Huang<sup>2</sup>, Pengfei Gao<sup>2</sup> <br/>  <a href="https://scholar.google.com/citations?user=4oXBp9UAAAAJ">Ziqi Zhou</a><sup>1</sup>, Lulu Xue<sup>1</sup>, Pengfei Yan<sup>2</sup>, <a href="https://scholar.google.com.hk/citations?user=JXV5yrZxj5MC&hl=zh-CN&oi=ao">Xiaoming Wei</a><sup>2</sup>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=j_y67gEAAAAJ">Minghui Li</a><sup>1</sup>, <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=lkAFwJgAAAAJ">Shengshan Hu</a><sup>1*</sup>
   <p align="center"><sup>1</sup>Huazhong University of Science and Technology  <br/>
     <sup>2</sup>Meituan<br/>
 </p>
